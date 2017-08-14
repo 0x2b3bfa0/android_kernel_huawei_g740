@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<allconfigs>
+  <module name="product">
+    <config name="name" type="string" value="G740_L00" />
+    <config name="version" type="string" value="MSM8930_G740_L00_VA" />
+    <config name="hardware" type="string" value="HL1C5L00M_VerA" />
+  </module>
+  <module name="lcd">
+    <config name="id0" type="string" value="mipi_otm1282a_chimei_hd" />
+    <config name="id5" type="string" value="mipi_otm1282a_auo_hd" />
+    <config name="id_0_wled_max_current" type="int" value="16" />
+    <config name="id_5_wled_max_current" type="int" value="12" />
+    <config name="default_wled_max_current" type="int" value="12" />
+  </module>
+  <module name="vibrator">
+    <config name="level_mV" value="2700" type="int" />
+  </module>
+</allconfigs>

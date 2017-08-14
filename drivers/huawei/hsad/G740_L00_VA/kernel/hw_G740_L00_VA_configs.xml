@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<allconfigs>
+  <module name="product">
+    <config name="name" type="string" value="G740_L00" />
+  </module>  
+  <module name="audio">
+    <config name="enhance_type" type="enum" value="AUDIO_ENHANCE_DTS" />
+    <config name="mic_type" type="enum" value="DUAL_MIC" />
+    <config name="board_id" type="string" value="G740L00_VA" />
+    <config name="handsfree_mic_type" type="enum" value="HANDSFREE_MIC_SECONDARY" />
+    <config name="aud_param_ver" type="string" value="G740L00_VA_audio_C05" />
+    <config name="btsco_nrec_adapt" type="enum" value="BTSCO_NREC_ADAPT_ON" />
+  </module>
+  <module name="flash">
+    <config name="support" type="bool" value="yes" />
+  </module>
+  <module name="sensors">
+    <config name="name_list" type="string" value="G_L_P_M_SENSORS" />
+    <config name="compass_pos_name" type="enum" value="COMPASS_TOP_GS_BOTTOM" />
+    <config name="px_wave" type="int" value="150" />
+    <config name="px_window" type="int" value="330" />
+    <config name="light_lux" type="string" value="60_180_320_650_800_1400_4000" />
+  </module>
+  <module name="vibrator">
+    <config name="level_mV" value="2700" type="int" />
+  </module>
+  <module name="wifi">
+    <config name="device_type" type="enum" value="WIFI_QUALCOMM_WCN3660" />
+    <config name="clock_type" type="enum" value="CLOCK_19P2M_INTERNAL" />
+    <config name="pubfile_id" type="string" value="MSM8930_G740_L00" />
+  </module>
+  <module name="bt">
+    <config name="device_type" type="enum" value="BT_FM_QUALCOMM_WCN3660" />
+    <config name="product_id"  type="string" value="G740_L00" />
+  </module>
+  <module name="ds">
+    <config name="sim_card_num" type="int" value="1" />
+  </module>
+  <module name="sdcard">
+    <config name="trigger_type" type="enum" value="RAISE_TRIGGER" />
+  </module>
+  <module name="fm">
+    <config name="fm_type" type="enum" value="FM_QUALCOMM" />
+    <config name="fm_sinr" type="enum" value="FM_SINR_7" />
+  </module>
+  <module name="lcd">
+    <config name="id0" type="string" value="mipi_otm1282a_chimei_hd" />
+    <config name="id5" type="string" value="mipi_otm1282a_auo_hd" />
+    <config name="resolution" value="LCD_IS_HD" type="enum" />
+    <config name="use_sw_esd" type="bool" value="yes" />
+    <config name="id_0_wled_max_current" type="int" value="16" />
+    <config name="id_5_wled_max_current" type="int" value="12" />
+    <config name="default_wled_max_current" type="int" value="12" />
+    <config name="wled_strings_num" type="int" value="2" />
+    <config name="wled_whistle_parameter" type="int" value="63" />
+  </module>
+  <module name="tp">
+  <config name="resolution" type="string" value="HD" />
+  <config name="virtualkeys" type="string" value="BACK_HOME_MENU" />
+  <config name="product_family" type="string" value="G740_L00"/>
+  <config name="type" type="string" value="COF"/>
+  <config name="fw_file" type="string" value="G740_L00_cyttsp4_fw"/>
+  <config name="capacitance_info" type="string" value="24_13_N3500_N1000_N800_1700_0_0_8"/>
+  <config name="mut_ignore_list" type="string" value="997_998_999"/>
+  <config name="self_ignore_list" type="string" value="999"/>
+  </module>
+  <module name="i2c">
+   <config name="touch_panel"   value="1" type="int"/>
+   <config name="compass"       value="1" type="int"/>
+   <config name="g_sensor"      value="1" type="int"/>
+   <config name="camera_main"   value="1" type="int"/>
+   <config name="camera_slave"  value="1" type="int"/>
+   <config name="keypad"        value="0" type="int"/>
+   <config name="aps"           value="1" type="int"/>
+   <config name="gyroscope"     value="0" type="int"/>
+   <config name="nfc"           value="0" type="int"/>
+   <config name="dc_dc"         value="0" type="int"/>
+   <config name="speaker"       value="0" type="int"/>
+   <config name="ofn"           value="0" type="int"/>
+   <config name="flash"         value="1" type="int"/>
+   <config name="l_sensor"      value="1" type="int"/>
+   <config name="charge"        value="0" type="int"/>
+   <config name="battery"       value="0" type="int"/>
+   <config name="ntc"           value="0" type="int"/>
+   <config name="mhl"           value="0" type="int"/>
+   <config name="audience"      value="0" type="int"/>
+  </module>
+  <module name="battery">
+   <config name="R_110" type="string" value="HB4742A0RBW_SNY"/>
+   <config name="R_470" type="string" value="HB4742A0RBW_LG"/>
+  </module>
+   <module name="charge">
+   <config name="STD" type="string" value="others"/>
+   <config name="MPP5LMT" type="bool" value="no"/>
+  </module>
+    <module name="camera">
+    <config name="board_name" type="string" value="g740" />
+  </module>
+</allconfigs>
